@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matrix Game</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body onresize=onResize()>
+        <div>
+            <div id="holder">
+                <div id="middle"></div>
+            </div>
+            
+            <form action="summary.html" method="post">
+                Score:<input type="number" id="score" name="score" value = "0" readonly="readonly"/>
+                <input type="submit" value="Terminate"/>
+            </form>
+                
+        </div>
+        
+        <button onclick=start()>Reset</button>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
